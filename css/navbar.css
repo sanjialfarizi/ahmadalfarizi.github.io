@@ -1,0 +1,107 @@
+
+
+
+/* Navbar */
+.navbar{
+	background-image: linear-gradient(to bottom right, #0e9dd9, #5DE8D6 );
+	box-shadow: 10px 5px 10px rgba(0, 0, 0, .7);
+	z-index: 9999;
+	background-color: royalblue;
+	width: 100%;
+	position: fixed;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 0 0 10px 10px;
+
+}
+
+.navbar .logo h2{
+	color: white;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+.navbar ul{
+	display: flex;
+	width: 40%;
+	justify-content: space-between;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 0.8em;
+}
+.navbar ul li a:hover{
+	color: blueviolet;
+}
+
+/* menu toggle */
+
+.menu-toggle{
+	height: 20px;
+	display: none;
+	position: relative;
+	justify-content: space-between;
+	flex-direction: column;
+
+
+}
+.menu-toggle span{
+	border-radius: 10px;
+	display: block;
+	width: 28px;
+	height: 3px;
+	background-color: white;
+
+}
+.menu-toggle input{
+	position: absolute;
+	height: 50px;
+	width: 30px;
+	opacity: 0;
+	left: -5px;
+	top: -15px;
+	z-index: 2;
+
+}
+/* Animation  Menu Toggle */
+
+.menu-toggle span{
+	transition: all 0.5s;
+}
+
+.menu-toggle span:nth-child(2){
+	transform-origin: 0 0;
+}
+.menu-toggle input:checked ~ span:nth-child(2){
+	transform: rotate(45deg) translate(11px, -1px);
+	width: 15px;
+	border-radius: 0;
+}
+
+.menu-toggle span:nth-child(4){
+	transform-origin: 0 100%;
+}
+.menu-toggle input:checked ~ span:nth-child(4){
+	border-radius: 0;
+	transform: rotate(-45deg) translate(-1px, 0);
+	width: 14px;
+}
+
+.menu-toggle input:checked ~ span:nth-child(3){
+	transform: scale(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+

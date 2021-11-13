@@ -1,0 +1,117 @@
+
+
+
+
+
+/* responsive tablet */
+@media screen and (max-width: 760px){
+	.navbar ul{
+		margin-right: -15px;
+		width: 50%;
+	}
+	.container{
+		transform: translate(35px, 45px);
+		width: 100%;
+		padding: 0;
+		display: inline-block;
+
+	}
+	.container .container-penyusun{
+		margin: auto;
+		width: 95%;
+		height: 170px;
+		overflow: auto;
+	}
+	.container h3{
+		display: inline-block;
+		background-color: yellow;
+		border-radius: 0 5px 5px 0px ;
+		color: black;
+		padding: 10px;
+		font-weight: bold;
+		font-size: 15px;
+		width: 200px;
+		text-align: center;
+	}
+	.container .container-penyusun h5{
+		display:  none;
+	}
+	.container-materi .pengantar h3{
+		font-size: 20px;
+	}
+	
+	.container-materi{
+		padding: 0;
+		transform: translateY(40px);
+		width: 95%;
+		height: 600px;
+		margin: auto;
+		border-color: darkcyan;
+
+	}
+	.container-materi .pengantar h3{
+		transform: translate(-10px, -10px);
+	}
+	.container-materi .daftar-isi h3{
+		transform: translate(-10px, -10px);
+	}
+	.container-materi .navbar-tugas{
+		display: none;
+	}
+	.container-materi .pengantar, .daftar-isi{
+		transform: translate(-25px, -25px);
+	}
+}
+
+/*  responsive mobile */
+
+@media screen and (max-width: 560px){
+	.navbar ul{
+		position: absolute;
+		right: 0;
+		flex-direction: column;
+		background-color: black;
+		top: 0;
+		height: 100vh;
+		align-items: center;
+		justify-content: space-evenly;
+		z-index: -1;
+		background-image: linear-gradient(to bottom right, #5DE8D6, #0e9dd9);
+		transform: translateX(100%);
+		transition: all 1s;
+		opacity: 0;
+	}
+	.navbar ul.slide{
+		opacity: 1;
+		transform: translateX(0);
+	}
+	.navbar {
+		display: flex;
+		justify-content: space-between;
+
+	}
+	.navbar .logo{
+		margin-left: 20px;
+	}
+	.menu-toggle{
+		margin-right: 10px;
+		display: flex;
+	}
+	.menu-toggle input{
+		cursor: pointer;
+	}
+	.container-materi .pengantar h3{
+		font-size: 20px;
+	}
+	
+	footer .kiri h3{
+		font-size: 15px;
+	}
+	footer .kanan h3{
+		font-size: 12px;
+	}
+	footer .kanan h4{
+		font-size: 12px;
+	}
+
+}
