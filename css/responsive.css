@@ -55,10 +55,13 @@
 	.container-materi .daftar-isi h3{
 		transform: translate(-10px, -10px);
 	}
+	.container-materi .pendahuluan h3{
+		transform: translate(-10px, -10px);
+	}
 	.container-materi .navbar-tugas{
 		display: none;
 	}
-	.container-materi .pengantar, .daftar-isi{
+	.container-materi .pengantar, .daftar-isi, .pendahuluan{
 		transform: translate(-25px, -25px);
 	}
 }
@@ -100,7 +103,7 @@
 	.menu-toggle input{
 		cursor: pointer;
 	}
-	.container-materi .pengantar h3{
+	.container-materi .pengantar h3, .pendahuluan h3{
 		font-size: 20px;
 	}
 	
@@ -112,6 +115,14 @@
 	}
 	footer .kanan h4{
 		font-size: 12px;
+	}
+	.pengantar p{
+		font-size: 13px;
+		transform: translateY(-10px);
+	}
+	.pendahuluan p{
+		font-size: 13px;
+		transform: translateY(-10px);
 	}
 
 }
