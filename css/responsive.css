@@ -106,7 +106,9 @@
 	.container-materi .pengantar h3, .pendahuluan h3{
 		font-size: 20px;
 	}
-	
+	.pendahuluan h3{
+		transform: translate(12px, 40px);
+	}
 	footer .kiri h3{
 		font-size: 15px;
 	}
