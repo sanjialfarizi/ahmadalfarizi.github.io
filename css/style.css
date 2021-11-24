@@ -29,6 +29,7 @@
 	border: 3px solid darkcyan;
 	width: 30%;
 	height: 95%;
+	overflow: auto;
 }
 
 .container-penyusun h2{
@@ -200,6 +201,8 @@ p {
 /* Footer kiri */
 
 footer{
+	position: absolute;
+	bottom: -700px;
 	display: flex;
 	justify-content: space-evenly;
 	background-color: #a2d9ff;
