@@ -201,6 +201,8 @@ p {
 /* Footer kiri */
 
 footer{
+	position: relative;
+	bottom: -390px;
 	display: flex;
 	justify-content: space-evenly;
 	background-color: #a2d9ff;
@@ -252,4 +254,7 @@ footer .kanan h4{
 	right: 0;
 	font-style: italic;
 
+}
+svg{
+	transform: translateY(390px);
 }
