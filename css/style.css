@@ -5,7 +5,7 @@
 .container .container-penyusun h5{
 	display: inline-block;
 	text-align: center;
-	background-color: royalblue;
+	background-image: linear-gradient(to bottom right, #0e9dd9, #5DE8D6 );
 	width: 100%;
 	height: 30px;
 	color: white;
@@ -48,7 +48,7 @@
 }
 
 
-.container-penyusun .kelompok .foto-1 h2{
+.container-penyusun .kelompok .foto-1 h2, .kelompok .foto-2 h2, .kelompok .foto-3 h2, .kelompok .foto-4 h2, .kelompok .foto-5 h2, .kelompok .foto-6 h2{
 	text-align: center;
 	position: absolute;
 	line-height: 25px;
@@ -57,68 +57,13 @@
 	background-color: lightskyblue;
 	width: 55px;
 	height: 25px;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, .5);
 	border: 1px solid white;
 	border-radius: 0;
 }
-.container-penyusun .kelompok .foto-2 h2{
-	text-align: center;
-	position: absolute;
-	line-height: 25px;
-	bottom: -10px;
-	left: 50px;
-	background-color: lightskyblue;
-	width: 55px;
-	height: 25px;
-	border: 1px solid white;
-	border-radius: 0;
-}
-.container-penyusun .kelompok .foto-3 h2{
-	text-align: center;
-	position: absolute;
-	line-height: 25px;
-	bottom: -10px;
-	left: 50px;
-	background-color: lightskyblue;
-	width: 55px;
-	height: 25px;
-	border: 1px solid white;
-	border-radius: 0;
-}
-.container-penyusun .kelompok .foto-4 h2{
-	text-align: center;
-	position: absolute;
-	line-height: 25px;
-	bottom: -10px;
-	left: 50px;
-	background-color: lightskyblue;
-	width: 55px;
-	height: 25px;
-	border: 1px solid white;
-	border-radius: 0;
-}
-.container-penyusun .kelompok .foto-5 h2{
-	text-align: center;
-	position: absolute;
-	line-height: 25px;
-	bottom: -10px;
-	left: 50px;
-	background-color: lightskyblue;
-	width: 60px;
-	height: 25px;
-	border: 1px solid white;
-	border-radius: 0;
-}
-.container-penyusun .kelompok .foto-6 h2{
-	text-align: center;
-	position: absolute;
-	line-height: 25px;
-	bottom: -10px;
-	left: 35px;
-	background-color: lightskyblue;
-	width: 85px;
-	height: 25px;
-	border: 1px solid white;
-	border-radius: 0;
+.container-penyusun .kelompok .foto-5 h2, .kelompok .foto-6 h2{
+	width: 80px;
+	left: 40px;
 }
 
 .kelompok{
@@ -176,7 +121,10 @@
 .pendahuluan h3{
 	background-color: gold;
 }
-.pendahuluan .isi-pendahuluan{
+.latar-belakang h3{
+	background-color: royalblue;
+}
+.pendahuluan .isi-pendahuluan, .latar-belakang .isi-latar-belakang{
 	height: 93%;
 	padding: 10px;
 	box-sizing: border-box;
