@@ -201,8 +201,6 @@ p {
 /* Footer kiri */
 
 footer{
-	position: absolute;
-	bottom: -700px;
 	display: flex;
 	justify-content: space-evenly;
 	background-color: #a2d9ff;
