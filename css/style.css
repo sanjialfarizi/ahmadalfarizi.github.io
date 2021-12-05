@@ -5,6 +5,7 @@
 	position: absolute;
 	right: 0;
 	top: 450px;
+	overflow-x: hidden;
 }
 h6{
 	text-align: center;
