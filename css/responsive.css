@@ -4,7 +4,7 @@
 
 
 /* responsive tablet */
-@media screen and (max-width: 760px){
+@media only screen and (max-width: 760px){
 	.navbar ul{
 		margin-right: -15px;
 		width: 50%;
@@ -68,7 +68,7 @@
 
 /*  responsive mobile */
 
-@media screen and (max-width: 560px){
+@media only screen and (max-width: 700px){
 	.navbar ul{
 		position: absolute;
 		right: 0;

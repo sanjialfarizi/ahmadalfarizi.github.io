@@ -1,3 +1,41 @@
+h6{
+	position: absolute;
+	z-index: 888;
+	top: 500px;
+	display: block;
+	right: 0px;
+	transform: translateX(-1350px);
+	font-size: 35px;
+	color: black;
+	font-weight: bold;
+	font-family: arial;
+	animation: quotes 30s;
+
+}
+@keyframes quotes{
+	0%{
+		transform: translateX(1000px);
+	}
+	5%{
+		color: white;
+	}
+	10%{
+		color: yellow;
+
+	}
+	15%{
+		color: pink;
+	}
+	50%{
+		color: gold;
+	}
+	90%{
+		color: hotpink;
+	}
+}
+
+
+
 .container h3{
 	display: none;
 }
@@ -145,6 +183,45 @@ p {
 	font-size: 25px;
 
 }
+/*video*/
+.video{
+	border: 5px solid black;
+	overflow: hidden;
+	position: absolute;
+	width: 225px;
+	height: 450px;
+	background-color: black;
+	left: 100px;
+}
+.video h2{
+	color: white;
+}
+video{
+	height: 400px;
+}
+.video{
+	transform: translateY(20px);
+}
+
+.video .judul-video{
+	font-weight: bold;
+}
+/*.video .animQ{
+	background-color: hotpink;
+	width: 700px;
+	transform: translateX(-455px);
+}
+.video .animQ h2{
+	animation: animQ 30s 3;
+	font-style: italic;
+}
+
+@keyframes animQ{
+	0%{
+		transform: translateX(600px);
+	}
+}*/
+
 
 /* Footer kiri */
 
