@@ -1,35 +1,28 @@
-h6{
-	position: absolute;
+.quote{
+	width: 100%;
+	height: 60px;
 	z-index: 888;
-	top: 500px;
-	display: block;
-	transform: translateX(-1350px);
+	position: absolute;
+	right: 0;
+	top: 450px;
+}
+h6{
+	text-align: center;
+	transform: translateX(-1300px);
 	font-size: 35px;
 	color: black;
 	font-weight: bold;
 	font-family: arial;
-	animation: quotes 30s;
+	animation: quotes 30s 2;
 
 }
 @keyframes quotes{
 	0%{
 		transform: translateX(1000px);
 	}
-	5%{
-		color: white;
-	}
-	10%{
-		color: yellow;
-
-	}
-	15%{
-		color: pink;
-	}
+	
 	50%{
 		color: gold;
-	}
-	90%{
-		color: hotpink;
 	}
 }
 
