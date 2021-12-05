@@ -44,5 +44,6 @@ table {
 body{
 	height: 1700px;
 	overflow-x: hidden;
+	background-repeat: no-repeat;
 	background-image: linear-gradient(to bottom right, #6C58ED, #5DE8D6 60%);
 }
